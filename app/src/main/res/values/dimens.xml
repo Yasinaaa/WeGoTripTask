@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="colorful_seekbar_canvas_height">54dp</dimen>
+    <dimen name="rating_bar_horizontal_padding">36dp</dimen>
+    <dimen name="small_unselected_circle_radius">5dp</dimen>
+    <dimen name="rating_bar_thumb_radius">12dp</dimen>
+</resources>

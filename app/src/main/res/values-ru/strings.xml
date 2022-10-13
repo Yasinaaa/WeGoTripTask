@@ -1,0 +1,10 @@
+<resources>
+  <string name="first_page_title">Офигенно, вы дошли до конца!\nРасскажите, как вам?</string>
+  <string name="button_next">Далее</string>
+  <string name="no_reply">Не хочу отвечать</string>
+  <string name="second_page_first_subtitle">Что вам особенно понравилось в этом туре?</string>
+  <string name="second_page_description">Напишите здесь, чем вам запомнился тур, посоветуете ли его друзьям и как удалось ли повесилиться</string>
+  <string name="second_page_second_subtitle">Как мы могли бы улучшить подачу информации?</string>
+  <string name="save_request">Сохранить отзыв</string>
+  <string name="skip">Пропустить</string>
+</resources>
