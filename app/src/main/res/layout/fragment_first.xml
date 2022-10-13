@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.FirstFragment">
+    tools:context=".presentation.first.FirstFragment">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/image_avatar"

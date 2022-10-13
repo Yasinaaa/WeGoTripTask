@@ -51,6 +51,7 @@ dependencies {
     /*Jetpack Compose */
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.2'
     implementation "androidx.activity:activity-compose:$composeActivityVersion"
 
     /*Network*/
@@ -71,12 +72,14 @@ dependencies {
 
     /*Hilt*/
     implementation "com.google.dagger:hilt-android:$hiltVersion"
-  implementation 'androidx.navigation:navigation-fragment-ktx:2.5.2'
-  kapt "com.google.dagger:hilt-compiler:$hiltVersion"
+    kapt "com.google.dagger:hilt-compiler:$hiltVersion"
 
     /*ViewModel*/
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-process:$lifecycleVersion"
+
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
 
     /* Test */
     testImplementation 'junit:junit:4.13.2'

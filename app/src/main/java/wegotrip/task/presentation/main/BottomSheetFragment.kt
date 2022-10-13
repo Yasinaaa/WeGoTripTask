@@ -1,4 +1,4 @@
-package wegotrip.task.presentation
+package wegotrip.task.presentation.main
 
 import android.app.Dialog
 import android.os.Bundle

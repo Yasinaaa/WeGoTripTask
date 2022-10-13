@@ -1,4 +1,4 @@
-package wegotrip.task.presentation
+package wegotrip.task.presentation.second
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -21,18 +21,5 @@ class SecondFragment : Fragment() {
     ): View {
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         return _binding!!.root
-    }
-
-
-    companion object {
-
-//        @JvmStatic
-//        fun newInstance(param1: String, param2: String) =
-//            FirstFragment().apply {
-//                arguments = Bundle().apply {
-//                    putString(ARG_PARAM1, param1)
-//                    putString(ARG_PARAM2, param2)
-//                }
-//            }
     }
 }

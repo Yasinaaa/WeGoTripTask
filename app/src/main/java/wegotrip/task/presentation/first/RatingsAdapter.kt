@@ -1,4 +1,4 @@
-package wegotrip.task.presentation
+package wegotrip.task.presentation.first
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

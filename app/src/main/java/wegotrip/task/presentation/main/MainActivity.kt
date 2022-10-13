@@ -1,7 +1,6 @@
-package wegotrip.task.presentation
+package wegotrip.task.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
-import androidx.activity.viewModels
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
 import wegotrip.task.databinding.ActivityMainBinding
@@ -11,7 +10,6 @@ class MainActivity : AppCompatActivity() {
 
     private var _binding: ActivityMainBinding? = null
     private val binding get() = _binding!!
-    private val viewModel by viewModels<MainViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
